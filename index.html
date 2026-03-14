@@ -41,6 +41,7 @@
   --ink-18:rgba(18,10,15,.18);
   --ink-08:rgba(18,10,15,.09);
   --gold:#C09A52;
+  --gold-dark:#9A7A35;
   --white:#F4EEE8;
   --off:#F7F2EC;
   --grad:linear-gradient(155deg,#2A0D1A 0%,#4A1535 45%,#1C1040 100%);
@@ -92,8 +93,7 @@ nav{position:sticky;top:0;z-index:100;background:#0D0610;display:flex;align-item
 .s-no-bottom{padding-bottom:0}
 .w{max-width:1020px;margin:0 auto}
 .w-mid{max-width:760px;margin:0 auto}
-.lbl{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
-.lbl-d{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:rgba(192,154,82,.6);margin-bottom:16px}
+.lbl{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:16px}.lbl-d{font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:rgba(192,154,82,.6);margin-bottom:16px}
 .h2{font-family:'Playfair Display',serif;font-size:clamp(26px,3.8vw,44px);font-weight:400;color:var(--ink);line-height:1.18;letter-spacing:-.01em}
 .h2 em{font-style:italic}
 .h2-d{font-family:'Playfair Display',serif;font-size:clamp(26px,3.8vw,44px);font-weight:400;color:#F5EFE8;line-height:1.18;letter-spacing:-.01em}
@@ -131,8 +131,7 @@ nav{position:sticky;top:0;z-index:100;background:#0D0610;display:flex;align-item
 .ph-row{display:grid;grid-template-columns:200px 72px 1fr;gap:0;border-top:1px solid var(--ink-08);padding:48px 0}
 .ph-row:last-child{border-bottom:1px solid var(--ink-08)}
 .ph-meta{padding-right:24px}
-.ph-tag{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
-.ph-name{font-family:'Playfair Display',serif;font-size:17px;font-weight:400;color:var(--ink)}
+.ph-tag{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:8px}.ph-name{font-family:'Playfair Display',serif;font-size:17px;font-weight:400;color:var(--ink)}
 .ph-n{font-family:'Playfair Display',serif;font-size:88px;font-weight:400;color:var(--ink-08);line-height:1;align-self:center;user-select:none}
 .ph-n-gold{font-family:'Playfair Display',serif;font-size:88px;font-weight:400;color:rgba(192,154,82,.12);line-height:1;align-self:center;user-select:none}
 .ph-body{font-size:15px;font-weight:300;color:var(--ink-70);line-height:1.85;align-self:center;padding-left:24px}
@@ -143,8 +142,7 @@ nav{position:sticky;top:0;z-index:100;background:#0D0610;display:flex;align-item
 .del-grid{display:grid;grid-template-columns:1fr 1fr}
 .del-item{padding:24px 32px 24px 0;border-bottom:1px solid var(--ink-08);display:flex;gap:18px;align-items:baseline}
 .del-item:nth-child(even){padding-left:32px;padding-right:0;border-left:1px solid var(--ink-08)}
-.del-dash{font-family:'Playfair Display',serif;font-size:14px;color:var(--gold);flex-shrink:0}
-.del-text{font-size:14px;font-weight:300;color:var(--ink-70);line-height:1.65}
+.del-dash{font-family:'Playfair Display',serif;font-size:14px;color:var(--gold-dark);flex-shrink:0}.del-text{font-size:14px;font-weight:300;color:var(--ink-70);line-height:1.65}
 .pricing-wrap{margin-top:72px}
 .pioneer-card{padding:56px 52px;background:var(--grad);position:relative;overflow:hidden;margin-bottom:1px}
 .pioneer-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
@@ -174,7 +172,7 @@ nav{position:sticky;top:0;z-index:100;background:#0D0610;display:flex;align-item
 .about-grid{margin-top:64px;display:grid;grid-template-columns:260px 1fr;gap:72px;align-items:start}
 .about-ident{border-top:1px solid var(--ink-08);padding-top:24px}
 .about-name{font-family:'Playfair Display',serif;font-size:24px;font-weight:400;color:var(--ink);margin-bottom:4px}
-.about-role{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:28px}
+.about-role{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:28px}
 .about-yrs{font-family:'Playfair Display',serif;font-size:80px;font-weight:400;color:var(--ink-08);line-height:1}
 .about-yrs-lbl{font-size:12px;font-weight:300;color:var(--ink-50);margin-top:6px;letter-spacing:.04em}
 .about-bio{margin-top:36px}
@@ -274,12 +272,7 @@ footer{background:#07030D;padding:28px 52px;display:flex;align-items:center;just
   <h1 class="h1" id="h-hero">Tu trayectoria es<br><em>extraordinaria.</em><br>¿Por qué Google<br>no lo sabe?</h1>
   <div class="h-divider"></div>
   <p class="h-sub">Construimos tu presencia en <strong>medios nacionales venezolanos</strong> para que cuando un paciente nacional o internacional busque tu nombre, encuentre autoridad comprobable</p>
-  <div class="hero-cta-block">
-    <a href="https://forms.gle/7enGpS4NJXydywgp9" target="_blank" rel="noopener" class="btn">Cuéntame sobre ti primero <span class="btn-arrow" aria-hidden="true">→</span></a>
-    <p class="hero-cta-note">Para que la llamada sea efectiva, déjame conocer más de ti</p>
-    <a href="https://calendar.app.google/5gE8Piy4xqLjxSWj8" target="_blank" rel="noopener" class="hero-cta-secondary">Ya llené el formulario — agendar mi llamada →</a>
-  </div>
-  <p class="h-trust">Sin compromiso · En tus tiempos</p>
+  <p class="h-sub" style="margin-bottom:0">Busca tu nombre en Google ahora mismo. Lo que encuentras — o lo que no encuentras — lo dice todo.</p>
 </section>
 
 <!-- VENTANA VENEZUELA -->
@@ -294,7 +287,7 @@ footer{background:#07030D;padding:28px 52px;display:flex;align-items:center;just
         <div class="wb-body">
           <p>Los fondos de inversión estudian proyectos hospitalarios. Las marcas médicas internacionales revisan un mercado que estuvo cautivo durante años. Las rutas aéreas en negociación generan las condiciones para que pacientes de otras latitudes busquen en Venezuela atención de nivel internacional.</p>
         </div>
-        <p class="wb-head">Un inversionista no ejecuta basado en redes sociales. Acude a Google.</p>
+        <p class="wb-head" style="margin-top:32px">Un inversionista no ejecuta basado en redes sociales. Acude a Google.</p>
         <div class="wb-body">
           <p>Y ahí necesita encontrar autoridad comprobable. Ese registro tarda meses en construirse. Quien lo esté haciendo hoy tiene una ventaja que no se puede comprar después.</p>
           <p>Lo sé porque llevo 15 años aprendiendo a reconocer el momento exacto antes de que algo cambie: ese momento en el que los que actúan primero se posicionan para siempre, y los que esperan simplemente llegan tarde. El país está en ese momento ahora mismo. Y tú, con tu trayectoria, puedes ser referencia antes de que ser referencia se vuelva difícil.</p>
